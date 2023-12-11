@@ -27,7 +27,7 @@ const navigationReducer = (state, action) => {
     case 'changePage':
       return {
         ...state,
-        page: action.payload.path,
+        path: action.payload.path,
         data: action.payload.data,
       }
     default:
