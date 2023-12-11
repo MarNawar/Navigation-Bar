@@ -1,10 +1,7 @@
 
 function Page({navigationPage, changePage}){
   return(
-    
     <>
-      {
-        navigationPage.path?
     <ul>
       <li className={navigationPage.path==='home'?"active":""} onClick={()=>changePage({
           path: 'home',
@@ -18,7 +15,7 @@ function Page({navigationPage, changePage}){
           path: 'contacts',
           data: 'CONTACTS ME',
       })}>contacts</li>
-    </ul>:null}
+    </ul>
     <h1>{navigationPage.data}</h1>
   </>
   
