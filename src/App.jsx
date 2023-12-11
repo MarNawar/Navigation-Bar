@@ -6,7 +6,6 @@ export default function App() {
   const [navigationPage,  dispatch] = useReducer(navigationReducer, initialPage);
 
   function changePage(page){
-    console.log(page)
     dispatch({
       type: 'changePage',
       payload: page,

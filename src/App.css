@@ -6,9 +6,10 @@ ul{
   background-color: #333333;
   display: flex;
   justify-content: start;
+  height: 3rem;
 }
 li{
-  padding :0.8em;
+  padding :0.6em;
   cursor: pointer;
 }
 li:hover{
